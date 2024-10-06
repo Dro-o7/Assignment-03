@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03</title>
+    <!-- font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans']
+                    }
+              colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/4955fa8a51.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="font-manrope">
+    <header class=" bg-gradient-to-t from-white to-green-100 ">
+        <!-- Navbar -->
+        <nav class="lg:mx-32 shadow-md rounded-full">
+            <div class="navbar bg-green-50 rounded-xl flex justify-between">
+                <div class="">
+                    <div class="dropdown">
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box shadow">
+                            <li class="bg-slate-100">Home</li>
+                            <li>Services</li>
+                            <li>Portfolio</li>
+                            <li>Blogs</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-3xl text-extrabold"><i class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 text-slate-950 rounded-full p-2"></i>Rinterio</a>
+                </div>
+                <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 gap-8">
+                        <li class="text-gray-800 font-bold">Home</li>
+                        <li>Portfolio</li>
+                        <li>Services</li>
+                        <li>Blogs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="gap-1 hidden lg:flex">
+                    <div class="btn rounded-full bg-slate-50"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="btn rounded-full bg-slate-50"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="btn font-bold text-lg rounded-full bg-lime-400">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-slate-950 text-white rounded-full p-2"></i></div>
+                </div>
+                <!-- mobile button -->
+                <div tabindex="0" role="button" class="btn border-slate-600 rounded-full lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+            </div>
+
+        </nav>
+        <!-- banner -->
+        <div class="banner mx-4 lg:mx-32 text-center">
+            <img src="images/banner.png" alt="" class=" mx-auto">
+            <h1 class="font-extrabold text-black text-3xl lg:text-6xl mb-6 ">A barn house of this design has <br> a striking appearance</h1>
+            <p class="font-medium text-4 text-gray-600 mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents,<br> and large windows that flood the space with natural light.</p>
+            <button class="btn font-bold text-lg rounded-full bg-lime-400">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-slate-950 text-white rounded-full p-2"></i></button>
+        </div>
+    </header>
+    <!-- About us -->
+    <div class="div"></div>
+    <!-- How we work -->
+    <div class="div"></div>
+    <!-- portfolio -->
+    <div class="div"></div>
+    <!-- Contact Us -->
+    <div class="div"></div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
